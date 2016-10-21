@@ -1,0 +1,87 @@
+/********** Base styles **********/
+body {
+  font-family: 'Neucha', cursive;
+}
+
+
+/****** HEADER ******/
+#header-nav{
+  background-color: #B3B3B3;
+  border-radius: 0;
+  border: 3px solid black;
+  border-left: none;
+  border-right: none;
+}
+.navbar-header{
+	height: 70px;
+}
+
+.navbar-brand h1 {/*Brand Name */
+	color: black;
+	font-size: 1.5em;
+	text-align: left;
+	font-weight: bold;
+	margin-top: 10px;
+	margin-bottom: 0;
+	line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus{ /* Remove the underline */
+  text-decoration: none;
+}
+/*  Collapsing Button Styling */
+.navbar-header button.navbar-toggle {
+  border: 1px solid black;
+}
+
+.navbar-header .icon-bar{
+	border: 2px solid black;
+}
+.navbar-header button.navbar-toggle{
+  clear: both;
+  margin-top: -35px;
+}
+/* Nav  Styling*/
+#nav-list a{
+  margin-top: 5px;
+  color: black;
+  font-size: 1.2em;
+}
+#nav-list a:hover{
+	text-shadow: 1px 1px 1px #222;
+}
+li hr{
+ 	width: 95%;
+ 	border: 1px solid black;
+ }
+/****** END HEADER ******/
+
+/****** MAIN CONTENT- Home Page ******/
+
+div.category{
+  background-color: #B3B3B3;
+}
+div > h2{
+	margin-top: 20px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.4em;
+	padding-top: 10px;
+}
+p.description{
+	padding: 5px 15px 5px 15px;
+	text-align: justify;
+
+}
+/****** END MAIN CONTENT- Home Page ******/
+
+/******************** Media Queries *******************/
+
+/***** Extra small devices only *****/
+/* Collapsable bar styling in xs devices */
+@media (max-width: 767px) {
+	#collapsable-nav {
+		background: #E6E6E6;
+		border-top: 3px solid black;
+		color: black; 
+	}
+}
